@@ -18,9 +18,6 @@ public class Task {
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long taskId;
 
-//        @Column(nullable = false)
-//        private Status status;
-
         @Enumerated(EnumType.STRING)
         private Status status;
 
